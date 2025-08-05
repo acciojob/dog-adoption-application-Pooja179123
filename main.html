@@ -22,16 +22,24 @@
 		<input type="text" placeholder="Address" id="address">
        <br><br>
 
-		Have you ever lived with a Dog before? <input type =" checkbox" id="checkbox">
-         <br><br>
-		<select id="multiSelect" type="select">Please select your preferred breeds:
-            <option value="apple">Apple</option>
-            <option value="samsung">Samsung</option>
-            <option value="oneplus">Oneplus</option>
-         </select>
+		<div class="checkbox-group">
+      <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+      <label for="checkbox">Have you ever lived with a Dog before?</label>
+    </div>
 		<br><br>
 
-		<input type="submit" value="Submit">
+    <label for="multiSelect">Please select your preferred breeds</label>
+		<br><br>
+    <select id="multiSelect" multiple>
+      <option value="labrador">Labrador Retriever</option>
+      <option value="germanshepherd">German Shepherd</option>
+      <option value="goldenretriever">Golden Retriever</option>
+      <option value="beagle">Beagle</option>
+      <option value="poodle">Poodle</option>
+    </select>
+		<br><br>
+
+		<input type="submit" id="submit" value="Submit">
          <br><br>
 
 	
